@@ -1,0 +1,300 @@
+week,habit,year,new_name,goal,type_norm,group,unit
+19,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+19,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+19,Library Trips,2026,Library Trips,3,0,Work,count
+19,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+19,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+19,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+19,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+19,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+19,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+19,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+19,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+19,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+19,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+19,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+19,100 Active Zone Minutes,2026,Active Zone Minutes,100,0,Health,min
+19,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+19,Lift 3 times,2026,Lift,3,0,Health,count
+19,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+19,Helping Momo,2026,Helping Momo,3,0,Family,hr
+19,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+19,Family Help,2026,Family Help,4,0,Family,hr
+19,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+19,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+18,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+18,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+18,Library Trips,2026,Library Trips,3,0,Work,count
+18,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+18,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+18,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+18,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+18,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+18,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+18,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+18,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+18,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+18,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+18,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+18,100 Active Zone Minutes,2026,Active Zone Minutes,90,0,Health,min
+18,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+18,Lift 3 times,2026,Lift,3,0,Health,count
+18,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+18,Helping Momo,2026,Helping Momo,3,0,Family,hr
+18,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+18,Family Help,2026,Family Help,4,0,Family,hr
+18,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+18,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+17,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+17,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+17,Library Trips,2026,Library Trips,3,0,Work,count
+17,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+17,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+17,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+17,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+17,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+17,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+17,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+17,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+17,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+17,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+17,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+17,100 Active Zone Minutes,2026,Active Zone Minutes,80,0,Health,min
+17,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+17,Lift 3 times,2026,Lift,3,0,Health,count
+17,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+17,Helping Momo,2026,Helping Momo,3,0,Family,hr
+17,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+17,Family Help,2026,Family Help,4,0,Family,hr
+17,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+17,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+16,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+16,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+16,Library Trips,2026,Library Trips,3,0,Work,count
+16,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+16,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+16,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+16,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+16,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+16,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+16,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+16,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+16,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+16,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+16,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+16,100 Active Zone Minutes,2026,Active Zone Minutes,70,0,Health,min
+16,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+16,Lift 3 times,2026,Lift,3,0,Health,count
+16,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+16,Helping Momo,2026,Helping Momo,3,0,Family,hr
+16,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+16,Family Help,2026,Family Help,4,0,Family,hr
+16,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+16,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+15,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+15,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+15,Library Trips,2026,Library Trips,3,0,Work,count
+15,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+15,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+15,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+15,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+15,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+15,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+15,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+15,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+15,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+15,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+15,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+15,100 Active Zone Minutes,2026,Active Zone Minutes,60,0,Health,min
+15,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+15,Lift 3 times,2026,Lift,3,0,Health,count
+15,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+15,Helping Momo,2026,Helping Momo,3,0,Family,hr
+15,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+15,Family Help,2026,Family Help,4,0,Family,hr
+15,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+15,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+14,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+14,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+14,Library Trips,2026,Library Trips,3,0,Work,count
+14,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+14,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+14,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+14,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+14,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+14,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+14,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+14,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+14,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+14,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+14,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+14,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+14,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+14,Lift 3 times,2026,Lift,3,0,Health,count
+14,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+14,Helping Momo,2026,Helping Momo,3,0,Family,hr
+14,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+14,Family Help,2026,Family Help,4,0,Family,hr
+14,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+14,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+13,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+13,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+13,Library Trips,2026,Library Trips,3,0,Work,count
+13,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+13,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+13,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+13,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+13,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+13,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+13,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+13,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+13,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+13,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+13,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+13,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+13,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+13,Lift 3 times,2026,Lift,3,0,Health,count
+13,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+13,Helping Momo,2026,Helping Momo,3,0,Family,hr
+13,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+13,Family Help,2026,Family Help,4,0,Family,hr
+13,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+13,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+12,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+12,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+12,Library Trips,2026,Library Trips,3,0,Work,count
+12,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+12,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+12,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+12,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+12,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+12,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+12,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+12,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+12,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+12,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+12,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+12,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+12,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+12,Lift 3 times,2026,Lift,3,0,Health,count
+12,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+12,Helping Momo,2026,Helping Momo,3,0,Family,hr
+12,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+12,Family Help,2026,Family Help,4,0,Family,hr
+12,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+12,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+11,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+11,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+11,Library Trips,2026,Library Trips,3,0,Work,count
+11,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+11,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+11,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+11,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+11,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+11,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+11,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+11,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+11,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+11,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+11,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+11,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+11,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+11,Lift 3 times,2026,Lift,3,0,Health,count
+11,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+11,Helping Momo,2026,Helping Momo,3,0,Family,hr
+11,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+11,Family Help,2026,Family Help,4,0,Family,hr
+11,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+11,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+10,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+10,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+10,Library Trips,2026,Library Trips,3,0,Work,count
+10,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+10,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+10,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+10,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+10,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+10,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+10,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+10,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+10,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+10,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+10,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+10,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+10,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+10,Lift 3 times,2026,Lift,3,0,Health,count
+10,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+10,Helping Momo,2026,Helping Momo,3,0,Family,hr
+10,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+10,Family Help,2026,Family Help,4,0,Family,hr
+10,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+10,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+9,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+9,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+9,Library Trips,2026,Library Trips,3,0,Work,count
+9,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+9,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+9,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+9,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+9,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+9,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+9,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+9,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+9,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+9,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+9,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+9,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+9,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+9,Lift 3 times,2026,Lift,3,0,Health,count
+9,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+9,Helping Momo,2026,Helping Momo,3,0,Family,hr
+9,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+9,Family Help,2026,Family Help,4,0,Family,hr
+9,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+9,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+8,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+8,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+8,Library Trips,2026,Library Trips,3,0,Work,count
+8,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+8,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+8,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+8,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+8,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+8,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+8,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+8,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+8,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+8,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+8,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+8,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+8,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+8,Lift 3 times,2026,Lift,3,0,Health,count
+8,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+8,Helping Momo,2026,Helping Momo,3,0,Family,hr
+8,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+8,Family Help,2026,Family Help,4,0,Family,hr
+8,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+8,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
+7,"15 Hours of Math, new note taking",2026,Math,15,0,Work,hr
+7,5 hours Non-Math Work,2026,Non-Math,3,0,Work,hr
+7,Library Trips,2026,Library Trips,3,0,Work,count
+7,3h Tutoring JB,2026,Tutoring JB,3,0,Work,hr
+7,3 Days where I did enough! (6h goal),2026,Days I did enough,3,0,Work,count
+7,"1 hr Meeting Canceled Time, Guilt Free",2026,Meeting Canceled,1,0,Fulfill,hr
+7,2 hours Star Item Time,2026,Star Item Time,2,0,Fulfill,hr
+7,10min Spanish Practice,2026,Spanish Practice,2,0,Fulfill,count
+7,Exposure Therapy,2026,Exposure Therapy,4,0,Fulfill,count
+7,2 a month Sabbath,2026,Sabbath,1,0,Fulfill,count
+7,Airplane Time 30m,2026,Airplane Time,30,0,Fulfill,min
+7,5 Hours Creative Time,2026,Creative Time,5,0,Fulfill,hr
+7,2 Hours Stranger Socializing,2026,Stranger Socializing,3,0,Social,hr
+7,2 hours Friend Quality Time,2026,Friend Quality,3,0,Social,hr
+7,100 Active Zone Minutes,2026,Active Zone Minutes,50,0,Health,min
+7,Meal Prep 5 and Hours,2026,Meal Prep,7,0,Health,hr
+7,Lift 3 times,2026,Lift,3,0,Health,count
+7,3h Finding Roommates,2026,Finding Roommates,1.5,0,Family,hr
+7,Helping Momo,2026,Helping Momo,3,0,Family,hr
+7,1 Convo with Dad,2026,Convo with Dad,1,0,Family,count
+7,Family Help,2026,Family Help,4,0,Family,hr
+7,Eating Meals,2026,Eating Meals,10,1,Minimize,hr
+7,Morning and Night Routine,2026,FT Routine,6,1,Minimize,hr
