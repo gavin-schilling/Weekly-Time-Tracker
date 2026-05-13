@@ -1,0 +1,70 @@
+year,week,habit,new_name,goal,type_norm,group,unit
+2026,20,"15 Hours of Math, new note taking",Math,15,0,Work,hr
+2026,20,5 hours Non-Math Work,Non-Math,3,0,Work,hr
+2026,20,Library Trips,Library Trips,3,0,Work,count
+2026,20,3h Tutoring JB,Tutoring JB,3,0,Work,hr
+2026,20,3 Days where I did enough! (6h goal),Days I did enough,3,0,Work,count
+2026,20,"1 hr Meeting Canceled Time, Guilt Free",Meeting Canceled,1,0,Fulfill,hr
+2026,20,2 hours Star Item Time,Star Item Time,2,0,Fulfill,hr
+2026,20,10min Spanish Practice,Spanish Practice,2,0,Fulfill,count
+2026,20,Exposure Therapy,Exposure Therapy,4,0,Fulfill,count
+2026,20,2 a month Sabbath,Sabbath,1,0,Fulfill,count
+2026,20,Airplane Time 30m,Airplane Time,30,0,Fulfill,min
+2026,20,5 Hours Creative Time,Creative Time,5,0,Fulfill,hr
+2026,20,2 Hours Stranger Socializing,Stranger Socializing,3,0,Social,hr
+2026,20,2 hours Friend Quality Time,Friend Quality,3,0,Social,hr
+2026,20,100 Active Zone Minutes,Active Zone Minutes,110,0,Health,min
+2026,20,Meal Prep 5 and Hours,Meal Prep,7,0,Health,hr
+2026,20,Lift 3 times,Lift,3,0,Health,count
+2026,20,3h Finding Roommates,Finding Roommates,1.5,0,Family,hr
+2026,20,Helping Momo,Helping Momo,3,0,Family,hr
+2026,20,1 Convo with Dad,Convo with Dad,1,0,Family,count
+2026,20,Family Help,Family Help,4,0,Family,hr
+2026,20,Eating Meals,Eating Meals,10,1,Minimize,hr
+2026,20,Morning and Night Routine,FT Routine,6,1,Minimize,hr
+2026,19,"1 hr Meeting Canceled Time, Guilt Free",Meeting Canceled,1,0,Fulfill,hr
+2026,19,100 Active Zone Minutes,Active Zone Minutes,100,0,Health,min
+2026,19,"15 Hours of Math, new note taking",Math,15,0,Work,hr
+2026,19,2 Hours Stranger Socializing,Stranger Socializing,3,0,Social,hr
+2026,19,2 hours Friend Quality Time,Friend Quality,3,0,Social,hr
+2026,19,5 hours Non-Math Work,Non-Math,3,0,Work,hr
+2026,19,Meal Prep 5 and Hours,Meal Prep,7,0,Health,hr
+2026,19,3h Tutoring JB,Tutoring JB,3,0,Work,hr
+2026,19,Lift 3 times,Lift,3,0,Health,count
+2026,19,2 hours Star Item Time,Star Item Time,2,0,Fulfill,hr
+2026,19,3h Finding Roommates,Finding Roommates,1.5,0,Family,hr
+2026,19,Helping Momo,Helping Momo,3,0,Family,hr
+2026,19,Library Trips,Library Trips,3,0,Work,count
+2026,19,10min Spanish Practice,Spanish Practice,2,0,Fulfill,count
+2026,19,Exposure Therapy,Exposure Therapy,4,0,Fulfill,count
+2026,19,2 a month Sabbath,Sabbath,1,0,Fulfill,count
+2026,19,Airplane Time 30m,Airplane Time,30,0,Fulfill,min
+2026,19,1 Convo with Dad,Convo with Dad,1,0,Family,count
+2026,19,3 Days where I did enough! (6h goal),Days I did enough,3,0,Work,count
+2026,19,Eating Meals,Eating Meals,10,1,Minimize,hr
+2026,19,Morning and Night Routine,FT Routine,6,1,Minimize,hr
+2026,19,5 Hours Creative Time,Creative Time,5,0,Fulfill,hr
+2026,19,Family Help,Family Help,4,0,Family,hr
+2026,18,"1 hr Meeting Canceled Time, Guilt Free",Meeting Canceled,100,0,Fulfill,hr
+2026,18,100 Active Zone Minutes,Active Zone Minutes,100,0,Health,min
+2026,18,"15 Hours of Math, new note taking",Math,100,0,Work,hr
+2026,18,2 Hours Stranger Socializing,Stranger Socializing,100,0,Social,hr
+2026,18,2 hours Friend Quality Time,Friend Quality,100,0,Social,hr
+2026,18,5 hours Non-Math Work,Non-Math,100,0,Work,hr
+2026,18,Meal Prep 5 and Hours,Meal Prep,100,0,Health,hr
+2026,18,3h Tutoring JB,Tutoring JB,100,0,Work,hr
+2026,18,Lift 3 times,Lift,100,0,Health,count
+2026,18,2 hours Star Item Time,Star Item Time,100,0,Fulfill,hr
+2026,18,3h Finding Roommates,Finding Roommates,100,0,Family,hr
+2026,18,Helping Momo,Helping Momo,100,0,Family,hr
+2026,18,Library Trips,Library Trips,100,0,Work,count
+2026,18,10min Spanish Practice,Spanish Practice,100,0,Fulfill,count
+2026,18,Exposure Therapy,Exposure Therapy,100,0,Fulfill,count
+2026,18,2 a month Sabbath,Sabbath,100,0,Fulfill,count
+2026,18,Airplane Time 30m,Airplane Time,100,0,Fulfill,min
+2026,18,1 Convo with Dad,Convo with Dad,100,0,Family,count
+2026,18,3 Days where I did enough! (6h goal),Days I did enough,100,0,Work,count
+2026,18,Eating Meals,Eating Meals,100,1,Minimize,hr
+2026,18,Morning and Night Routine,FT Routine,100,1,Minimize,hr
+2026,18,5 Hours Creative Time,Creative Time,100,0,Fulfill,hr
+2026,18,Family Help,Family Help,100,0,Family,hr
