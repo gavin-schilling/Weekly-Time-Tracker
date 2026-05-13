@@ -3,7 +3,8 @@ library(tidyverse)
 library(lubridate)
 library(stringr)
 library(tidyr)
- 
+library(usethis) 
+
 # 🟪 Todo
 # 1️⃣ making the graphing function plot one habit and the goal and how it changed over time
 # 2️⃣ updating the cleaning to include months, and then updating my goal sheet to include months,
@@ -28,14 +29,13 @@ cleaning_real <- function(df){
     rename_with(tolower) %>%
     mutate(date = ymd(date),
            week = isoweek(date),
-           month = month(date),
            year = year(date)) %>%  
-    group_by(week,habit,month, year) %>% 
+    group_by(week,habit, year) %>% 
     summarize(total = sum(value)) 
-    # %>% 
-    # mutate(goal = case_when(habit == "Eating Meals" ~ 4,
-    #                         habit == "Morning and Night Routine" ~ 3) #see if there is a way to merge data here, cause I want the goals to change based on the week for my exercise habit
-    #       )
+  # %>% 
+  # mutate(goal = case_when(habit == "Eating Meals" ~ 4,
+  #                         habit == "Morning and Night Routine" ~ 3) #see if there is a way to merge data here, cause I want the goals to change based on the week for my exercise habit
+  #       )
   
   ## 🟪 Left to do 🟪
   # Data only has categories for non-zero values, will need to merge and set these to zero
@@ -44,37 +44,80 @@ cleaning_real <- function(df){
   # using R to build out my goal data --> can use append to add the df to itself and make changes per week as I need
   
   
-    
+  
 }
 
 df_r_clean <-  cleaning_real(df_real)
 
 # Building out goals
-df_goals <- read.csv("Time Tracker Goals - Sheet1.csv")
-df_goals_test <- read.csv("test-week-Time Tracker Goals - Sheet1.csv")
+df_goal_f <- read.csv("w20-w7 goals.csv")
+
+#expanding goal testing data to go back to week 7
+# on_merge_goal <- expand.grid(
+#   week = unique(df_r_clean$week),
+#   habit = unique(df_goals_test$habit),
+#   year = unique(df_goals_test$year)
+# )
+# df_goal_same <- df_goals_test %>% 
+#   filter(week == 19)
+# 
+# goal_expand <- on_merge_goal %>% 
+#   left_join(df_goal_same,by = c("habit","year") ) %>% 
+#   select(-"week.y") %>% 
+#   rename(week = week.x) %>% 
+#   arrange(desc(week))
+# 
+# write.csv(goal_expand, "w20-w7 goals.csv",row.names = T)
+# 
+# df_goal
+# 
+# goal_exp_f <- goal_expand %>% 
+#   mutate(goal = case_when(habit == ))
+#   
 
 
 # Merge the data
+#' @title Merge data
+#' @param df cleaned goal data
+#' @param goal goal data with weeks
+#' @return merged data with all habit and week combos filled,
 merge_data <- function(df,goal){
-# Create all combinations
-all_combos <- expand_grid(
-  week = unique(df$week),
-  habit = goal$habit,
-  year = unique(df$year)
-)
-
-
-# Merge onto original data
-out <- all_combos %>%
-  left_join(df, by = c("week", "habit","year")) %>%
-  left_join(goal, by = c( "habit","year")) %>%
-  mutate(total = replace_na(total, 0),
-         habit = new_name) %>% 
-  select(-new_name)
-
+  # Create all combinations
+  all_combos <- expand_grid(
+    week = unique(df$week),
+    habit = unique(goal$habit),
+    year = unique(df$year)
+  )
+  
+  # Merge onto original data
+  out <- all_combos %>%
+    left_join(df, by = c("week","habit","year")) %>%
+    left_join(goal, by = c("week","habit","year")) %>%
+    mutate(total = replace_na(total, 0),
+           habit = new_name) %>% 
+    select(-new_name)
+  
 }
 
-df_merge <- merge_data(df_r_clean,df_goals_test)
+# df = df_r_clean
+# goal = df_goals_test
+# all_combos <- expand_grid(
+#   week = unique(df$week),
+#   habit = unique(goal$habit),
+#   year = unique(df$year)
+# )
+# 
+# # Merge onto original data
+# test1 <- all_combos %>%
+#   left_join(df, by = c("week","habit","year"))
+# test2 <- test1 %>% 
+#   left_join(goal, by = c("week","habit","year"))
+#   
+# out <- all_combos %>%
+#   left_join(df, by = c("week","habit","year")) %>%
+#   left_join(goal, by = c("week","habit","year"))
+
+df_merge <- merge_data(df_r_clean,df_goal_f)
 
 #' @title Met Goal
 #' @param df A cleaned dataset of weekly time tracking
@@ -113,11 +156,11 @@ met_goal <- function(df,visual,group_list = "all"){
     group_plot <-  default +
       geom_tile(aes(fill = goal_group)) +
       scale_fill_manual(values = c("v_over" = "#FFC080", 
-                        "over" = "#FFFF80",
-                        "met" = "#C0FF80",
-                        "middle" = "#80C0FF",
-                        "bottom" = "#C080FF")) +
-    geom_text(aes(label = round(goal_dist, 2)), color = "black", size = 3) 
+                                   "over" = "#FFFF80",
+                                   "met" = "#C0FF80",
+                                   "middle" = "#80C0FF",
+                                   "bottom" = "#C080FF")) +
+      geom_text(aes(label = round(goal_dist, 2)), color = "black", size = 3) 
     print(group_plot)
   }
   else{
@@ -126,8 +169,8 @@ met_goal <- function(df,visual,group_list = "all"){
   return(df)
 }
 
-df_met <- met_goal(df_merge,3,"Work")
-df_met <- met_goal(df_merge,3,c("Health","Family"))
+df_met <- met_goal(df_merge,3)
+met_goal(df_merge,3,c("Health","Family"))
 met_goal(df_merge,3,c("Social"))
 met_goal(df_merge,3,"Minimize")
 
@@ -137,17 +180,18 @@ met_goal(df_merge,3,"Minimize")
 get_habit_by_group <- function(df){
   list = unique(df$group)
   for(i in list){
-  print(paste0(c("Group: ",i)))
+    print(paste0(c("Group: ",i)))
     unq = df %>% 
-    filter(group == i) %>% 
-    pull(habit) %>% 
-    unique()
+      filter(group == i) %>% 
+      pull(habit) %>% 
+      unique()
     print(unq)
-  print("-----------------------------")
+    print("-----------------------------")
   }
 }
 
-get_habit_by_group(df_merge)
+get_habit_by_group(df_met)
+
 
 
 # # Graph
