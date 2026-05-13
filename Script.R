@@ -79,53 +79,26 @@ df_goal_f <- read.csv("w20-w7 goals.csv")
 # Merge the data
 #' @title Merge data
 #' @param df cleaned goal data
-#' @param goal goal data with weeks
+#' @param df_goal goal data with weeks
 #' @return merged data with all habit and week combos filled,
-merge_data <- function(df,goal){
+merge_data <- function(df,df_goal){
   # Create all combinations
   all_combos <- expand_grid(
     week = unique(df$week),
-    habit = unique(goal$habit),
+    habit = unique(df_goal$habit),
     year = unique(df$year)
   )
   
   # Merge onto original data
   out <- all_combos %>%
     left_join(df, by = c("week","habit","year")) %>%
-    left_join(goal, by = c("week","habit","year")) %>%
+    left_join(df_goal, by = c("week","habit","year")) %>%
     mutate(total = replace_na(total, 0),
            habit = new_name) %>% 
     select(-new_name)
   
-}
-
-# df = df_r_clean
-# goal = df_goals_test
-# all_combos <- expand_grid(
-#   week = unique(df$week),
-#   habit = unique(goal$habit),
-#   year = unique(df$year)
-# )
-# 
-# # Merge onto original data
-# test1 <- all_combos %>%
-#   left_join(df, by = c("week","habit","year"))
-# test2 <- test1 %>% 
-#   left_join(goal, by = c("week","habit","year"))
-#   
-# out <- all_combos %>%
-#   left_join(df, by = c("week","habit","year")) %>%
-#   left_join(goal, by = c("week","habit","year"))
-
-df_merge <- merge_data(df_r_clean,df_goal_f)
-
-#' @title Met Goal
-#' @param df A cleaned dataset of weekly time tracking
-#' @param visual An indicator, 1 if want to output graph, 0 otherwise
-#' @return A new dataset with added met_goal column and graph to visualize 
-#' all the weeks of data and all the catergory
-met_goal <- function(df,visual,group_list = "all"){
-  df <- df %>% mutate(met_goal = ifelse(total >= goal,1,0),
+  #adding whether met goals or not
+  out <- out %>% mutate(met_goal = ifelse(total >= goal,1,0),
                       goal_dist = (total - goal)/goal,
                       goal_group = case_when(
                         goal_dist >= 0.5 ~ "v_over",
@@ -134,6 +107,17 @@ met_goal <- function(df,visual,group_list = "all"){
                         goal_dist >= -0.7 ~ "middle",
                         TRUE ~ "bottom"
                       )) 
+  
+}
+
+df_merge <- merge_data(df_r_clean,df_goal_f)
+
+#' @title Met Goal
+#' @param df A cleaned dataset of weekly time tracking
+#' @param visual An indicator, 1 if want to output graph, 0 otherwise
+#' @return A new dataset with added met_goal column and graph to visualize 
+#' all the weeks of data and all the catergory
+met_goal_viz <- function(df,visual,group_list = "all"){
   if(!("all" %in% tolower(group_list))){
     df <- df %>% filter(group %in% group_list)
   }
@@ -166,13 +150,12 @@ met_goal <- function(df,visual,group_list = "all"){
   else{
     print("No visualization")
   }
-  return(df)
+  
 }
 
-df_met <- met_goal(df_merge,3)
-met_goal(df_merge,3,c("Health","Family"))
-met_goal(df_merge,3,c("Social"))
-met_goal(df_merge,3,"Minimize")
+met_goal_viz(df_merge,3)
+met_goal_viz(df_merge,3,c("Health"))
+
 
 
 #' @title Get habit by group
@@ -198,6 +181,103 @@ get_habit_by_group(df_met)
 # You input category or categories you want, and then it will plot them with a 
 # vertial line for the goal that week, keeping in mind that the goal can change
 # each week as well
+#'@title Graph month
+#'@param target The habit you want to graph
+#'
+graph_month_single <- function(df,target){
+  df <- df %>% filter(habit == target)
+  
+  
+  out_plot <- ggplot(df, aes(x = week)) +
+    
+    # Total bars
+    geom_col(aes(y = total,fill = goal_group),
+             width = 0.8) +
+             scale_fill_manual(values = c("v_over" = "#FFC080", 
+                                     "over" = "#FFFF80",
+                                     "met" = "#C0FF80",
+                                     "middle" = "#80C0FF",
+                                     "bottom" = "#C080FF")) +
+    
+    # Goal stair-step line
+    geom_step(aes(y = goal),
+             
+              linewidth = 1.2,
+              color = "green") +
+    
+    scale_x_continuous(breaks = unique(df$week)) +
+    
+    labs(
+      title = target,
+      x = "Week",
+      y = "Total"
+    )
+  
+  print(out_plot)
+}
+
+graph_month_single(df_merge,"Active Zone Minutes")
+graph_month_single(df_merge,"Meal Prep")
+get_habit_by_group(df_merge)
+
+#'@title Graph Group
+#'@return Same graph as graph_month_single, but plots all from a habit group, thank you gpt
+graph_group <- function(df, target_group){
+  
+  df <- df %>% 
+    filter(group == target_group)
+  
+  out_plot <- ggplot(df, aes(x = week)) +
+    
+    # Bars
+    geom_col(
+      aes(y = total, fill = goal_group),
+      width = 0.8
+    ) +
+    
+    # Colors
+    scale_fill_manual(
+      values = c(
+        "v_over" = "#FFC080", 
+        "over"   = "#FFFF80",
+        "met"    = "#C0FF80",
+        "middle" = "#80C0FF",
+        "bottom" = "#C080FF"
+      )
+    ) +
+    
+    # Goal line
+    geom_step(
+      aes(y = goal),
+      linewidth = 1.1,
+      color = "green"
+    ) +
+    
+    # One graph per habit
+    facet_wrap(~habit, scales = "free_y") +
+    
+    scale_x_continuous(
+      breaks = unique(df$week)
+    ) +
+    
+    labs(
+      title = paste("Goal Group:", target_group),
+      x = "Week",
+      y = "Total"
+    ) +
+    
+    theme(
+      legend.position = "bottom",
+      strip.text = element_text(size = 12)
+    )
+  
+  print(out_plot)
+}
+graph_group(df_merge, "Health")
+graph_group(df_merge, "Work")
+graph_group(df_merge, "Fulfill")
+graph_group(df_merge, "Minimize")
+get_habit_by_group(df_merge)
 
 
 
